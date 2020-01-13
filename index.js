@@ -7,15 +7,21 @@ function theBeatlesPlay(musicians, instruments) {
   return arr;
 }
 
-function johnLennonFacts(facts) {
-  while(facts.length > - 1) {
-    return facts[i] + '!!!';
+function johnLennonFacts(facts){
+  let i = 0;
+  while(i<facts.length){
+    facts[i] = facts[i] +  "!!!";
+    i++;
   }
+  return facts;
 }
 
 
-function iLoveTheBeatles(num)  {
-  emptyArr = [];
-  
-  }
+function iLoveTheBeatles(n){
+  var arr = [];
+  var string = "I love the Beatles!";
+  do {arr.push(string), n++}
+  while(n<15);
+  return arr;
+}
 }
